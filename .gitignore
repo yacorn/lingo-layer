@@ -1,0 +1,91 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+
+# Downloaded weights and vendored inference engine are reproduced by scripts.
+/android/app/src/main/assets/models/*.gguf*
+/third_party/llama.cpp/
+/third_party/CTranslate2/
+/third_party/sentencepiece/
+/third_party/mecab/
+/android/app/src/main/assets/models/aihub-ja-ko-int8/
+/android/app/src/main/assets/models/small100-int8/
+/.cache/
+/deliverables/keit-2026/
+*.jks
+*.keystore
+/android/key.properties
+/.env
+/.env.*
+/android/app/src/androidTest/assets/gemma-benchmark/
+/android/app/src/androidTest/assets/fp32-benchmark/
+/models/*.metadata.json
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+# Keep local research, training data and visual previews out of public source.
+/data/
+/docs/*
+!/docs/BUILD.ko.md
+!/docs/MODEL_LIBRARY.ko.md
+!/docs/RELEASE_INSTALL.ko.md
+/scripts/*
+!/scripts/build.ps1
+!/scripts/prepare-models.ps1
+!/scripts/prepare-unidic.py
+!/scripts/verify-apk.py
+!/scripts/verify-phone-release.py
+/models/*
+!/models/manifest.json
+/test/manual_ui_preview_test.dart
+/android/app/src/main/cpp/gemma-tokenizer.cpp
+/android/app/src/androidTest/assets/*
+!/android/app/src/androidTest/assets/aihub-tokenizer-golden.json
+/android/app/src/androidTest/kotlin/dev/personal/screen_translator/BenchmarkCleanupTest.kt
+/android/app/src/androidTest/kotlin/dev/personal/screen_translator/GemmaCandidate.kt
+/android/app/src/androidTest/kotlin/dev/personal/screen_translator/ModelBenchmarkTest.kt
+/android/app/src/androidTest/kotlin/dev/personal/screen_translator/OcrPipelineBenchmarkTest.kt
+/android/app/src/androidTest/kotlin/dev/personal/screen_translator/ScreenPipelineBenchmarkTest.kt

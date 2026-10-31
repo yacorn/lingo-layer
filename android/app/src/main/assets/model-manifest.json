@@ -1,0 +1,85 @@
+{
+  "mecabRevision": "61b90ba6e669dc2d7d533d4a80d206f3b31d52b1",
+  "mecabArchiveSha256": "cb654df442350c9913f29a00778aa162cdfcf39ed29c21ab4cdd2e20de0a2cba",
+  "onnxruntimeVersion": "1.31.0",
+  "models": [
+    {
+      "id": "aihub",
+      "label": "추천 · 일본어 전용",
+      "name": "AIHub JA→KO INT8",
+      "directory": "aihub-ja-ko-int8",
+      "bytes": 533479816,
+      "note": "속도 우선으로 선택 · 조건문·이름·관용구 확인 필요",
+      "files": [
+        {
+          "file": "encoder_model.onnx",
+          "bytes": 111923966,
+          "sha256": "576e648583182827867a24302dbbeef1aa8002bd92a6efd09e10ee6f2d273fd1",
+          "repo": "sappho192/aihub-ja-ko-translator",
+          "revision": "68c1d2703c8f2c3c05be2da32a1559759b6b08b0",
+          "path": "onnxq/encoder_model.onnx"
+        },
+        {
+          "file": "decoder_model_merged.onnx",
+          "bytes": 159578955,
+          "sha256": "89483106eccf5fc934e82dee77f198a2fc6616725da2ebf67462d31337f35a31",
+          "repo": "sappho192/aihub-ja-ko-translator",
+          "revision": "68c1d2703c8f2c3c05be2da32a1559759b6b08b0",
+          "path": "onnxq/decoder_model_merged.onnx"
+        },
+        {
+          "file": "vocab.txt",
+          "bytes": 236001,
+          "sha256": "e21d5c1dbce89cc21bf82a9940656214d5313035f7d567f9654aefa320cf64d5",
+          "repo": "sappho192/aihub-ja-ko-translator",
+          "revision": "68c1d2703c8f2c3c05be2da32a1559759b6b08b0",
+          "path": "src_tokenizer/vocab.txt"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 2245821,
+          "sha256": "f59aec8f149f6c8265b7fa147b7297e97e9bcbf45a7c90d95d69876fa4cba6b1",
+          "repo": "sappho192/aihub-ja-ko-translator",
+          "revision": "68c1d2703c8f2c3c05be2da32a1559759b6b08b0",
+          "path": "trg_tokenizer/tokenizer.json"
+        },
+        {
+          "file": "sys.dic",
+          "bytes": 187680870,
+          "sha256": "122c4c91f026bf4b65bbe2dfd8b9f8eeb6ab56d8eb2a7287a68bca75708ba513",
+          "source": "unidic-lite-1.0.8"
+        },
+        {
+          "file": "unk.dic",
+          "bytes": 5475,
+          "sha256": "e3b92803feeb6c2712c796b905317ec192a59729d2c1e92b2728d454169541c4",
+          "source": "unidic-lite-1.0.8"
+        },
+        {
+          "file": "char.bin",
+          "bytes": 262496,
+          "sha256": "dd31396563d8924645b80fd3c9aa7b13ca089d7748f25553a1d6bc3f9b511ae8",
+          "source": "unidic-lite-1.0.8"
+        },
+        {
+          "file": "matrix.bin",
+          "bytes": 71544726,
+          "sha256": "88fb99efe1075d9b8b40e01bb2751e4095f1612618f2490af776eb5ed39190a9",
+          "source": "unidic-lite-1.0.8"
+        },
+        {
+          "file": "dicrc",
+          "bytes": 1444,
+          "sha256": "fcd17f35752de1417859a15e2e1f043d666da03f36dc632e8c0ed46887883a59",
+          "source": "unidic-lite-1.0.8"
+        },
+        {
+          "file": "mecabrc",
+          "bytes": 62,
+          "sha256": "72021ae17e5680bb4bb3b570e7e792b567e4c6758c7b17b39fbc7c8c499229b3",
+          "source": "unidic-lite-1.0.8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "format": "lingolayer-model-v1",
+  "engine": "aihub-ja-ko-v1",
+  "name": "AIHub JA→KO INT8",
+  "license": "MIT / KoGPT2 CC-BY-NC-SA-4.0",
+  "source": "https://huggingface.co/sappho192/aihub-ja-ko-translator",
+  "sourceLanguage": "ja",
+  "targetLanguage": "ko",
+  "files": [
+    {
+      "file": "encoder_model.onnx",
+      "bytes": 111923966,
+      "sha256": "576e648583182827867a24302dbbeef1aa8002bd92a6efd09e10ee6f2d273fd1",
+      "url": "https://huggingface.co/sappho192/aihub-ja-ko-translator/resolve/68c1d2703c8f2c3c05be2da32a1559759b6b08b0/onnxq/encoder_model.onnx"
+    },
+    {
+      "file": "decoder_model_merged.onnx",
+      "bytes": 159578955,
+      "sha256": "89483106eccf5fc934e82dee77f198a2fc6616725da2ebf67462d31337f35a31",
+      "url": "https://huggingface.co/sappho192/aihub-ja-ko-translator/resolve/68c1d2703c8f2c3c05be2da32a1559759b6b08b0/onnxq/decoder_model_merged.onnx"
+    },
+    {
+      "file": "vocab.txt",
+      "bytes": 236001,
+      "sha256": "e21d5c1dbce89cc21bf82a9940656214d5313035f7d567f9654aefa320cf64d5",
+      "url": "https://huggingface.co/sappho192/aihub-ja-ko-translator/resolve/68c1d2703c8f2c3c05be2da32a1559759b6b08b0/src_tokenizer/vocab.txt"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 2245821,
+      "sha256": "f59aec8f149f6c8265b7fa147b7297e97e9bcbf45a7c90d95d69876fa4cba6b1",
+      "url": "https://huggingface.co/sappho192/aihub-ja-ko-translator/resolve/68c1d2703c8f2c3c05be2da32a1559759b6b08b0/trg_tokenizer/tokenizer.json"
+    }
+  ]
+}
